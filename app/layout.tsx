@@ -68,9 +68,6 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  other: {
-    "monetag": "4edd384cf6ac09d0afb97e905e5e5410",
-  },
 };
 
 export default function RootLayout({
