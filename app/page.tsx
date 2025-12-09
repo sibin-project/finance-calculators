@@ -167,24 +167,7 @@ export default function Home() {
                   <li>• Royal Enfield Hunter 350 EMI</li>
                 </ul>
               </div>
-
-              {/* Category 2 */}
-              <div className="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="bg-purple-100 p-2 rounded-lg text-purple-600">
-                    ⚡
-                  </div>
-                  <h3 className="font-bold text-xl text-gray-900">Utility Bills</h3>
-                </div>
-                <p className="text-sm text-gray-500 mb-4">Electricity and utility calculators</p>
-                <ul className="space-y-2 text-sm text-gray-600">
-                  <li>• TNEB Calculator 2025</li>
-                  <li>• KSEB Bill Estimator</li>
-                  <li>• Electricity Consumption</li>
-                </ul>
-              </div>
-
-              {/* Category 3 */}
+              {/* Category 2*/}
               <div className="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="bg-orange-100 p-2 rounded-lg text-orange-600">
