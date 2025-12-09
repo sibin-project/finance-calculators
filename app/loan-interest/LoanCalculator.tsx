@@ -5,7 +5,7 @@ import { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import AdUnit from "@/components/AdUnit";
+
 
 function LoanCalculatorContent() {
     const searchParams = useSearchParams();
@@ -207,8 +207,7 @@ function LoanCalculatorContent() {
                     </div>
 
 
-                    {/* Ad Space */}
-                    <AdUnit />
+
 
                     {/* Info/SEO Content */}
                     <div className="mt-8 bg-white p-8 rounded-xl border border-border shadow-sm">

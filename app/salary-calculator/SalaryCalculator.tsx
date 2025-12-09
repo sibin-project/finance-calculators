@@ -4,7 +4,7 @@
 import { useState, useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import AdUnit from "@/components/AdUnit";
+
 
 export default function SalaryCalculator() {
     // Inputs
@@ -207,8 +207,7 @@ export default function SalaryCalculator() {
                     </div>
 
 
-                    {/* Ad Space */}
-                    <AdUnit />
+
 
                     {/* Educational Content */}
                     <div className="mt-8 bg-white p-8 rounded-xl border border-border shadow-sm">

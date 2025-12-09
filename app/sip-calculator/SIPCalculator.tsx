@@ -4,7 +4,7 @@
 import { useState, useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import AdUnit from "@/components/AdUnit";
+
 
 export default function SIPCalculator() {
     const [monthlyInvestment, setMonthlyInvestment] = useState<number | "">("");
@@ -174,8 +174,7 @@ export default function SIPCalculator() {
                         </div>
                     </div>
 
-                    {/* Ad Space */}
-                    <AdUnit />
+
 
                     {/* Info/SEO Content */}
                     <div className="mt-8 bg-white p-8 rounded-xl border border-border shadow-sm">

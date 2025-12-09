@@ -1,11 +1,10 @@
 
-import AdUnit from "@/components/AdUnit";
+import Link from "next/link";
 
 export default function Footer() {
     return (
         <footer className="bg-white border-t border-border mt-auto">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6">
-                <AdUnit format="horizontal" label="Advertisement" />
             </div>
             <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col md:flex-row justify-between items-center">
@@ -16,7 +15,18 @@ export default function Footer() {
                         </p>
                     </div>
                     <div className="flex space-x-6">
-                        {/* Links removed as per request */}
+                        <Link href="/blog" className="text-sm text-secondary-text hover:text-primary transition-colors">
+                            Blog
+                        </Link>
+                        <Link href="/about" className="text-sm text-secondary-text hover:text-primary transition-colors">
+                            About
+                        </Link>
+                        <Link href="/contact" className="text-sm text-secondary-text hover:text-primary transition-colors">
+                            Contact
+                        </Link>
+                        <Link href="/privacy-policy" className="text-sm text-secondary-text hover:text-primary transition-colors">
+                            Privacy Policy
+                        </Link>
                     </div>
                 </div>
                 <div className="mt-8 border-t border-border pt-8 text-center">

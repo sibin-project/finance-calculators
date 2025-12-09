@@ -4,7 +4,7 @@
 import { useState, useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import AdUnit from "@/components/AdUnit";
+
 
 export default function IncomeTaxCalculator() {
     // Income State
@@ -285,8 +285,7 @@ export default function IncomeTaxCalculator() {
                     </div>
 
 
-                    {/* Ad Space */}
-                    <AdUnit />
+
 
                     {/* SEO Content Section */}
                     <div className="mt-8">

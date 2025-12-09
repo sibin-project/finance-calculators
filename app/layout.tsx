@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://smartmoney-calc.vercel.app'),
+  metadataBase: new URL('https://smartmoney-calc.web.app'),
   title: {
     default: "SmartMoney Calc - Free Financial Calculators",
     template: "%s | SmartMoney Calc",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "SmartMoney Calc - Comprehensive Financial Tools",
     description: "Calculate GST, SIP returns, Income Tax liabilities, Salary breakdowns, and Loan EMIs instantly. Start planning your financial future today.",
-    url: "https://smartmoney-calc.vercel.app",
+    url: "https://smartmoney-calc.web.app",
     siteName: "SmartMoney Calc",
     locale: "en_IN",
     type: "website",
@@ -67,9 +67,6 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-  },
-  other: {
-    "monetag": "4edd384cf6ac09d0afb97e905e5e5410",
   },
 };
 

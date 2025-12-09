@@ -35,6 +35,15 @@ export default function Navbar() {
                         <Link href="/profit-calculator" className="text-foreground hover:text-primary px-2 py-2 rounded-md text-sm font-medium transition-colors">
                             Profit
                         </Link>
+                        <Link href="/blog" className="text-foreground hover:text-primary px-2 py-2 rounded-md text-sm font-medium transition-colors">
+                            Blog
+                        </Link>
+                        <Link href="/about" className="text-foreground hover:text-primary px-2 py-2 rounded-md text-sm font-medium transition-colors">
+                            About
+                        </Link>
+                        <Link href="/contact" className="text-foreground hover:text-primary px-2 py-2 rounded-md text-sm font-medium transition-colors">
+                            Contact
+                        </Link>
                         <Link href="/#faq" className="text-foreground hover:text-primary px-2 py-2 rounded-md text-sm font-medium transition-colors">
                             FAQ
                         </Link>
@@ -135,6 +144,27 @@ export default function Navbar() {
                             className="block px-3 py-2 rounded-md text-base font-medium text-foreground hover:text-primary hover:bg-gray-50"
                         >
                             Profit
+                        </Link>
+                        <Link
+                            href="/blog"
+                            onClick={() => setIsOpen(false)}
+                            className="block px-3 py-2 rounded-md text-base font-medium text-foreground hover:text-primary hover:bg-gray-50"
+                        >
+                            Blog
+                        </Link>
+                        <Link
+                            href="/about"
+                            onClick={() => setIsOpen(false)}
+                            className="block px-3 py-2 rounded-md text-base font-medium text-foreground hover:text-primary hover:bg-gray-50"
+                        >
+                            About
+                        </Link>
+                        <Link
+                            href="/contact"
+                            onClick={() => setIsOpen(false)}
+                            className="block px-3 py-2 rounded-md text-base font-medium text-foreground hover:text-primary hover:bg-gray-50"
+                        >
+                            Contact
                         </Link>
                         <Link
                             href="/#faq"
